@@ -1,1 +1,3 @@
-console.log('Initial setup project')
+import { Server } from './network'
+
+Server.start()
