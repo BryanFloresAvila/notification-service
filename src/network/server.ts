@@ -12,7 +12,7 @@ class Server {
 
   private config() {
     this.app.set('port', (process.env.PORT as string) || 3000)
-    this.app.use(express.text())
+    this.app.use(express.json())
     this.app.use(
       (
         req: express.Request,
