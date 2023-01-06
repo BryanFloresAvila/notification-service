@@ -1,5 +1,5 @@
 import { DtoNotification } from 'dto-interfaces'
-import { sendNotification } from 'lib/services'
+import { sendNotification } from '../lib'
 
 class Notification {
   private notification: DtoNotification | null
