@@ -1,8 +1,8 @@
 {
-  "name": "service1",
+  "name": "notification-service",
   "version": "0.1.0",
   "main": "src/index.ts",
-  "description": "service1",
+  "description": "This service receives a notification in JSON format and forwards it to another service.",
   "scripts": {
     "build:dev": "webpack --mode development",
     "build": "webpack --mode production",
