@@ -10,7 +10,10 @@ class Notification {
 
   public async sendNotification(): Promise<string> {
     try {
-      await sendNotification(this.notification as DtoNotification)
+      const response = await sendNotification(
+        this.notification as DtoNotification
+      )
+      if (response.status !== 200) return EFNotification.NOTIFICATION_SEND_ERROR
 
       return MFN.NOTIFICATION_SEND_SUCCESS
     } catch (err) {

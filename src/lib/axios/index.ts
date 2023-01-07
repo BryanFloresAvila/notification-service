@@ -5,7 +5,7 @@ const URL = process.env.API_URL
 const instanceAxios = axios.create({
   baseURL: URL,
   headers: {
-    origin: 'http://localhost:3000',
+    origin: `${process.env.DOMAIN_ORIGIN}+:${process.env.PORT}`,
     'Content-Type': 'application/json',
     Accept: 'application/json',
     'api-key': process.env.API_KEY
