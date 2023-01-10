@@ -33,13 +33,13 @@ To run this project, you will need to add the following environment variables to
 Clone the project
 
 ```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
+  git clone https://github.com/BryanFloresAvila/notification-service.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd notification-service
 ```
 
 Install dependencies
